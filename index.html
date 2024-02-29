@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>1A</th>
+        <th>2A</th>
+        <th>3B</th>
+        <th>4B</th>
+        <th>5B</th>
+        <th>6B</th>
+        <th>7B</th>
+        <th>8B</th>
+        <th>8B</th>
+        <th>8B</th>
+        <th>1B</th>
+        <th>2B</th>
+        <th>3A</th>
+        <th>4A</th>
+        <th>5A</th>
+        <th>6A</th>
+        <th>7A</th>
+        <th>8A</th>
+      </tr>
+      <tr>
+        <td class="nao__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">1</span>
+              <span class="elemento__name">H</span>
+            </div>
+            <span class="elemento__full__name">Hidrogênio</span>
+          </div>
+        </td>
+        <td colspan="16" class="empty"></td>
+        <td class="gas__nobre elemento">
+          <div>
+            <div>
+              <span class="elemento__num">2</span>
+              <span class="elemento__name">He</span>
+            </div>
+            <span class="elemento__full__name">Hélio</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="metal__alcalino elemento">
+          <div>
+            <div>
+              <span class="elemento__num">3</span>
+              <span class="elemento__name">Li</span>
+            </div>
+            <span class="elemento__full__name">Lírio</span>
+          </div>
+        </td>
+        <td class="alcalino__terroso elemento">
+          <div>
+            <div>
+              <span class="elemento__num">4</span>
+              <span class="elemento__name">Be</span>
+            </div>
+            <span class="elemento__full__name">Belírio</span>
+          </div>
+        </td>
+        <td colspan="10" class="empty"></td>
+        <td class="semi__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">5</span>
+              <span class="elemento__name">B</span>
+            </div>
+            <span class="elemento__full__name">Boro</span>
+          </div>
+        </td>
+        <td class="nao__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">6</span>
+              <span class="elemento__name">C</span>
+            </div>
+            <span class="elemento__full__name">Carbono</span>
+          </div>
+        </td>
+        <td class="nao__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">7</span>
+              <span class="elemento__name">N</span>
+            </div>
+            <span class="elemento__full__name">Nitrogênio</span>
+          </div>
+        </td>
+        <td class="nao__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">8</span>
+              <span class="elemento__name">O</span>
+            </div>
+            <span class="elemento__full__name">Oxigênio</span>
+          </div>
+        </td>
+        <td class="halogenio elemento">
+          <div>
+            <div>
+              <span class="elemento__num">9</span>
+              <span class="elemento__name">F</span>
+            </div>
+            <span class="elemento__full__name">Flúor</span>
+          </div>
+        </td>
+        <td class="gas__nobre elemento">
+          <div>
+            <div>
+              <span class="elemento__num">10</span>
+              <span class="elemento__name">Ne</span>
+            </div>
+            <span class="elemento__full__name">Neônio</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="metal__alcalino elemento">
+          <div>
+            <div>
+              <span class="elemento__num">11</span>
+              <span class="elemento__name">Na</span>
+            </div>
+            <span class="elemento__full__name">Sódio</span>
+          </div>
+        </td>
+        <td class="alcalino__terroso elemento">
+          <div>
+            <div>
+              <span class="elemento__num">12</span>
+              <span class="elemento__name">Mg</span>
+            </div>
+            <span class="elemento__full__name">Magnésio</span>
+          </div>
+        </td>
+        <td colspan="10" class="empty"></td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">13</span>
+              <span class="elemento__name">Al</span>
+            </div>
+            <span class="elemento__full__name">Alumínio</span>
+          </div>
+        </td>
+        <td class="semi__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">14</span>
+              <span class="elemento__name">Si</span>
+            </div>
+            <span class="elemento__full__name">Silício</span>
+          </div>
+        </td>
+        <td class="nao__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">15</span>
+              <span class="elemento__name">P</span>
+            </div>
+            <span class="elemento__full__name">Fósforo</span>
+          </div>
+        </td>
+        <td class="nao__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">16</span>
+              <span class="elemento__name">S</span>
+            </div>
+            <span class="elemento__full__name">Enxofre</span>
+          </div>
+        </td>
+        <td class="halogenio elemento">
+          <div>
+            <div>
+              <span class="elemento__num">17</span>
+              <span class="elemento__name">Cl</span>
+            </div>
+            <span class="elemento__full__name">Cloro</span>
+          </div>
+        </td>
+        <td class="gas__nobre elemento">
+          <div>
+            <div>
+              <span class="elemento__num">18</span>
+              <span class="elemento__name">Ar</span>
+            </div>
+            <span class="elemento__full__name">Argônio</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="metal__alcalino elemento">
+          <div>
+            <div>
+              <span class="elemento__num">19</span>
+              <span class="elemento__name">K</span>
+            </div>
+            <span class="elemento__full__name">Potássio</span>
+          </div>
+        </td>
+        <td class="alcalino__terroso elemento">
+          <div>
+            <div>
+              <span class="elemento__num">20</span>
+              <span class="elemento__name">Ca</span>
+            </div>
+            <span class="elemento__full__name">Cálcio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">21</span>
+              <span class="elemento__name">Sc</span>
+            </div>
+            <span class="elemento__full__name">Escândio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">22</span>
+              <span class="elemento__name">Ti</span>
+            </div>
+            <span class="elemento__full__name">Titânio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">23</span>
+              <span class="elemento__name">V</span>
+            </div>
+            <span class="elemento__full__name">Vanádio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">24</span>
+              <span class="elemento__name">Cr</span>
+            </div>
+            <span class="elemento__full__name">Crômio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">25</span>
+              <span class="elemento__name">Mn</span>
+            </div>
+            <span class="elemento__full__name">Manganês</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">26</span>
+              <span class="elemento__name">Fe</span>
+            </div>
+            <span class="elemento__full__name">Ferro</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">27</span>
+              <span class="elemento__name">Co</span>
+            </div>
+            <span class="elemento__full__name">Cobalto</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">28</span>
+              <span class="elemento__name">Ni</span>
+            </div>
+            <span class="elemento__full__name">Níquel</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">29</span>
+              <span class="elemento__name">Cu</span>
+            </div>
+            <span class="elemento__full__name">Cobre</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">30</span>
+              <span class="elemento__name">Zn</span>
+            </div>
+            <span class="elemento__full__name">Zinco</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">31</span>
+              <span class="elemento__name">Ga</span>
+            </div>
+            <span class="elemento__full__name">Gálio</span>
+          </div>
+        </td>
+        <td class="semi__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">32</span>
+              <span class="elemento__name">Ge</span>
+            </div>
+            <span class="elemento__full__name">Germânio</span>
+          </div>
+        </td>
+        <td class="semi__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">33</span>
+              <span class="elemento__name">As</span>
+            </div>
+            <span class="elemento__full__name">Arsênio</span>
+          </div>
+        </td>
+        <td class="nao__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">34</span>
+              <span class="elemento__name">Se</span>
+            </div>
+            <span class="elemento__full__name">Selênio</span>
+          </div>
+        </td>
+        <td class="halogenio elemento">
+          <div>
+            <div>
+              <span class="elemento__num">35</span>
+              <span class="elemento__name">Br</span>
+            </div>
+            <span class="elemento__full__name">Bromo</span>
+          </div>
+        </td>
+        <td class="gas__nobre elemento">
+          <div>
+            <div>
+              <span class="elemento__num">36</span>
+              <span class="elemento__name">Kr</span>
+            </div>
+            <span class="elemento__full__name">Criptônio</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="metal__alcalino elemento">
+          <div>
+            <div>
+              <span class="elemento__num">37</span>
+              <span class="elemento__name">Rb</span>
+            </div>
+            <span class="elemento__full__name">Rubídio</span>
+          </div>
+        </td>
+        <td class="alcalino__terroso elemento">
+          <div>
+            <div>
+              <span class="elemento__num">38</span>
+              <span class="elemento__name">Sr</span>
+            </div>
+            <span class="elemento__full__name">Estrôncio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">39</span>
+              <span class="elemento__name">Y</span>
+            </div>
+            <span class="elemento__full__name">Ítrio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">40</span>
+              <span class="elemento__name">Zr</span>
+            </div>
+            <span class="elemento__full__name">Zircônio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">41</span>
+              <span class="elemento__name">Nb</span>
+            </div>
+            <span class="elemento__full__name">Nióbio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">42</span>
+              <span class="elemento__name">Mo</span>
+            </div>
+            <span class="elemento__full__name">Molibdênio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">43</span>
+              <span class="elemento__name">Tc</span>
+            </div>
+            <span class="elemento__full__name">Tecnécio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">44</span>
+              <span class="elemento__name">Ru</span>
+            </div>
+            <span class="elemento__full__name">Rutênio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">45</span>
+              <span class="elemento__name">Rh</span>
+            </div>
+            <span class="elemento__full__name">Ródio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">46</span>
+              <span class="elemento__name">Pd</span>
+            </div>
+            <span class="elemento__full__name">Paládio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">47</span>
+              <span class="elemento__name">Ag</span>
+            </div>
+            <span class="elemento__full__name">Prata</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">48</span>
+              <span class="elemento__name">Cd</span>
+            </div>
+            <span class="elemento__full__name">Cádmio</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">49</span>
+              <span class="elemento__name">Ag</span>
+            </div>
+            <span class="elemento__full__name">Prata</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">50</span>
+              <span class="elemento__name">Sn</span>
+            </div>
+            <span class="elemento__full__name">Estanho</span>
+          </div>
+        </td>
+        <td class="semi__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">51</span>
+              <span class="elemento__name">Sb</span>
+            </div>
+            <span class="elemento__full__name">Antimônio</span>
+          </div>
+        </td>
+        <td class="semi__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">52</span>
+              <span class="elemento__name">Te</span>
+            </div>
+            <span class="elemento__full__name">Telúrio</span>
+          </div>
+        </td>
+        <td class="halogenio elemento">
+          <div>
+            <div>
+              <span class="elemento__num">53</span>
+              <span class="elemento__name">I</span>
+            </div>
+            <span class="elemento__full__name">Iodo</span>
+          </div>
+        </td>
+        <td class="gas__nobre elemento">
+          <div>
+            <div>
+              <span class="elemento__num">54</span>
+              <span class="elemento__name">Xe</span>
+            </div>
+            <span class="elemento__full__name">Xenônio</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="metal__alcalino elemento">
+          <div>
+            <div>
+              <span class="elemento__num">55</span>
+              <span class="elemento__name">Cs</span>
+            </div>
+            <span class="elemento__full__name">Césio</span>
+          </div>
+        </td>
+        <td class="alcalino__terroso elemento">
+          <div>
+            <div>
+              <span class="elemento__num">56</span>
+              <span class="elemento__name">Ba</span>
+            </div>
+            <span class="elemento__full__name">Bário</span>
+          </div>
+        </td>
+        <td class="empty">57-71 Lantanídeos</td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">72</span>
+              <span class="elemento__name">Hf</span>
+            </div>
+            <span class="elemento__full__name">Háfnio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">73</span>
+              <span class="elemento__name">Ta</span>
+            </div>
+            <span class="elemento__full__name">Tântalo</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">74</span>
+              <span class="elemento__name">W</span>
+            </div>
+            <span class="elemento__full__name">Tungstênio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">75</span>
+              <span class="elemento__name">Re</span>
+            </div>
+            <span class="elemento__full__name">Rênio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">76</span>
+              <span class="elemento__name">Os</span>
+            </div>
+            <span class="elemento__full__name">Ósmio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">77</span>
+              <span class="elemento__name">Ir</span>
+            </div>
+            <span class="elemento__full__name">Irídio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">78</span>
+              <span class="elemento__name">Pt</span>
+            </div>
+            <span class="elemento__full__name">Platina</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">79</span>
+              <span class="elemento__name">Au</span>
+            </div>
+            <span class="elemento__full__name">Ouro</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">80</span>
+              <span class="elemento__name">Hg</span>
+            </div>
+            <span class="elemento__full__name">Mercúrio</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">81</span>
+              <span class="elemento__name">Tl</span>
+            </div>
+            <span class="elemento__full__name">Tálio</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">82</span>
+              <span class="elemento__name">Pb</span>
+            </div>
+            <span class="elemento__full__name">Chumbo</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">83</span>
+              <span class="elemento__name">Bi</span>
+            </div>
+            <span class="elemento__full__name">Bismuto</span>
+          </div>
+        </td>
+        <td class="semi__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">84</span>
+              <span class="elemento__name">Po</span>
+            </div>
+            <span class="elemento__full__name">Polônio</span>
+          </div>
+        </td>
+        <td class="halogenio elemento">
+          <div>
+            <div>
+              <span class="elemento__num">85</span>
+              <span class="elemento__name">At</span>
+            </div>
+            <span class="elemento__full__name">Ástato</span>
+          </div>
+        </td>
+        <td class="gas__nobre elemento">
+          <div>
+            <div>
+              <span class="elemento__num">86</span>
+              <span class="elemento__name">Rn</span>
+            </div>
+            <span class="elemento__full__name">Radônio</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="metal__alcalino elemento">
+          <div>
+            <div>
+              <span class="elemento__num">87</span>
+              <span class="elemento__name">Fr</span>
+            </div>
+            <span class="elemento__full__name">Frâncio</span>
+          </div>
+        </td>
+        <td class="alcalino__terroso elemento">
+          <div>
+            <div>
+              <span class="elemento__num">88</span>
+              <span class="elemento__name">Ra</span>
+            </div>
+            <span class="elemento__full__name">Rádio</span>
+          </div>
+        </td>
+        <td class="empty">89-103 Actinídios</td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">104</span>
+              <span class="elemento__name">Rf</span>
+            </div>
+            <span class="elemento__full__name">Rutherfórdio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">105</span>
+              <span class="elemento__name">Db</span>
+            </div>
+            <span class="elemento__full__name">Dúbnio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">106</span>
+              <span class="elemento__name">Sg</span>
+            </div>
+            <span class="elemento__full__name">Seabórgio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">107</span>
+              <span class="elemento__name">Bh</span>
+            </div>
+            <span class="elemento__full__name">Bóhrio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">108</span>
+              <span class="elemento__name">Hs</span>
+            </div>
+            <span class="elemento__full__name">Hássio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">109</span>
+              <span class="elemento__name">Mt</span>
+            </div>
+            <span class="elemento__full__name">Meitnério</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">110</span>
+              <span class="elemento__name">Ds</span>
+            </div>
+            <span class="elemento__full__name">Darmstádio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">111</span>
+              <span class="elemento__name">Rg</span>
+            </div>
+            <span class="elemento__full__name">RoentGênio</span>
+          </div>
+        </td>
+        <td class="metal__transicao elemento">
+          <div>
+            <div>
+              <span class="elemento__num">112</span>
+              <span class="elemento__name">Cn</span>
+            </div>
+            <span class="elemento__full__name">Copernício</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">113</span>
+              <span class="elemento__name">Nh</span>
+            </div>
+            <span class="elemento__full__name">Nihônio</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">114</span>
+              <span class="elemento__name">Fl</span>
+            </div>
+            <span class="elemento__full__name">Fleróvio</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">115</span>
+              <span class="elemento__name">Mc </span>
+            </div>
+            <span class="elemento__full__name">Moscóvio</span>
+          </div>
+        </td>
+        <td class="outro__metal elemento">
+          <div>
+            <div>
+              <span class="elemento__num">116</span>
+              <span class="elemento__name">Lv</span>
+            </div>
+            <span class="elemento__full__name">Livermório</span>
+          </div>
+        </td>
+        <td class="halogenio elemento">
+          <div>
+            <div>
+              <span class="elemento__num">117</span>
+              <span class="elemento__name">Ts</span>
+            </div>
+            <span class="elemento__full__name">Tenessimo</span>
+          </div>
+        </td>
+        <td class="gas__nobre elemento">
+          <div>
+            <div>
+              <span class="elemento__num">118</span>
+              <span class="elemento__name">Og</span>
+            </div>
+            <span class="elemento__full__name">Oganessônio</span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

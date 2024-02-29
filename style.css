@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  --tdSize: 70;
+  color: black;
+  justify-content: center;
+}
+table {
+  border-spacing: 3px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.elemento {
+  transition: all 0.2s;
+}
+.elemento:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+th {
+  width: calc(1px * var(--tdSize));
+  height: calc(0.5px * var(--tdSize));
+}
+td > div {
+  text-align: center;
+  width: 100%;
+}
+
+td > div > div {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  width: 100%;
+}
+.elemento__num {
+  margin-right: 0.3rem;
+  font-weight: bold;
+  align-self: flex-start;
+  font-size: 19px;
+}
+.elemento__name {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  margin: auto;
+  font-size: calc(0.4px * var(--tdSize));
+  width: calc(0.6px * var(--tdSize));
+  height: calc(0.6px * var(--tdSize));
+
+  padding: 2px;
+}
+.elemento__full__name {
+  text-transform: capitalize;
+  font-size: calc(0.19px * var(--tdSize));
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+}
+
+.empty {
+  background-color: white;
+  border: 0;
+  text-align: center;
+}
+.nao__metal {
+  background-color: #bb6df7;
+}
+.metal__alcalino {
+  background-color: #f0ba81;
+}
+.alcalino__terroso {
+  background-color: #f2e079;
+}
+.metal__transicao {
+  background-color: #d96c57;
+}
+.semi__metal {
+  background-color: #60db6d;
+}
+.halogenio {
+  background-color: #d760db;
+}
+.gas__nobre {
+  background-color: #60d9db;
+}
+.outro__metal {
+  background-color: #c4fff6;
+}
