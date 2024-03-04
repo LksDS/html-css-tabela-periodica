@@ -14,7 +14,6 @@ table {
 table,
 th,
 td {
-  border: 1px solid black;
   border-radius: 5px;
 }
 .elemento {
@@ -23,6 +22,9 @@ td {
 .elemento:hover {
   cursor: pointer;
   transform: scale(1.3);
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
 }
 th {
   width: calc(1px * var(--tdSize));
@@ -65,32 +67,41 @@ td > div > div {
   font-weight: 700;
 }
 
+.space__between {
+  height: 1rem;
+}
 .empty {
   background-color: white;
   border: 0;
   text-align: center;
 }
 .nao__metal {
-  background-color: #bb6df7;
+  background-color: #96cd30;
 }
 .metal__alcalino {
-  background-color: #f0ba81;
+  background-color: #f1b200;
 }
 .alcalino__terroso {
-  background-color: #f2e079;
+  background-color: #eada00;
 }
 .metal__transicao {
-  background-color: #d96c57;
+  background-color: #eb8e8e;
 }
 .semi__metal {
-  background-color: #60db6d;
+  background-color: #4db6ac;
 }
 .halogenio {
-  background-color: #d760db;
+  background-color: #70cbeb;
 }
 .gas__nobre {
-  background-color: #60d9db;
+  background-color: #3d9ee3;
 }
 .outro__metal {
-  background-color: #c4fff6;
+  background-color: #a2c7d3;
+}
+.lantanideo {
+  background-color: #90e3e9;
+}
+.actinidio {
+  background-color: #dcadd6;
 }
