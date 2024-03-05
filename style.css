@@ -1,13 +1,33 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+}
 * {
   margin: 0;
   padding: 0;
 }
 body {
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   --tdSize: 68;
-  color: black;
+
+  color: var(--text-color);
   align-items: center;
+}
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+#btn__switch {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  padding: 5px;
+}
+#btn__switch:hover {
+  cursor: pointer;
 }
 h1 {
   text-align: center;
@@ -21,8 +41,12 @@ th,
 td {
   border-radius: 5px;
 }
+th {
+  color: var(--text-color);
+}
 .elemento {
   transition: all 0.2s;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 .elemento:hover {
   cursor: pointer;
@@ -48,12 +72,14 @@ td > div > div {
   width: 100%;
 }
 .elemento__num {
+  color: var(--text-color);
   margin-right: 0.2rem;
   font-weight: bold;
   align-self: flex-start;
   font-size: calc(0.2px * var(--tdSize));
 }
 .elemento__name {
+  color: var(--text-color);
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -69,7 +95,7 @@ td > div > div {
 .elemento__full__name {
   text-transform: capitalize;
   font-size: calc(0.19px * var(--tdSize));
-  color: rgba(0, 0, 0, 1);
+  color: var(--text-color);
   font-weight: 700;
 }
 
@@ -88,6 +114,7 @@ footer {
   margin-bottom: 10px;
 }
 .legenda__square {
+  border-radius: 50%;
   height: 20px;
   width: 20px;
   margin-right: 8px;
@@ -96,7 +123,7 @@ footer {
   height: 1rem;
 }
 .empty {
-  background-color: white;
+  color: var(--text-color);
   border: 0;
   text-align: center;
 }
