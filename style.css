@@ -16,9 +16,9 @@ body {
   align-items: center;
 }
 header {
-  width: 80%;
+  width: 83%;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
 }
 #btn__switch {
   background-color: var(--background-color);
@@ -28,9 +28,12 @@ header {
 }
 #btn__switch:hover {
   cursor: pointer;
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 h1 {
   text-align: center;
+  margin: auto;
 }
 table {
   width: calc(var(--tdSize) * 18px);
